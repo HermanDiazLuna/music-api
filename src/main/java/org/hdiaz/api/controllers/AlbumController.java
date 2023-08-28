@@ -1,8 +1,8 @@
-package org.hdiaz.api.controller;
+package org.hdiaz.api.controllers;
 
 import java.util.List;
 
-import org.hdiaz.api.entity.Album;
+import org.hdiaz.api.entities.Album;
 import org.hdiaz.api.services.IAlbumService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

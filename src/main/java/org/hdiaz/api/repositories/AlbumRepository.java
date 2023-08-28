@@ -1,9 +1,8 @@
-package org.hdiaz.api.repository;
+package org.hdiaz.api.repositories;
 
-import org.hdiaz.api.entity.Album;
+import org.hdiaz.api.entities.Album;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AlbumRepository extends JpaRepository<Album, Integer>{
-	
-	
+
 }

@@ -2,7 +2,7 @@ package org.hdiaz.api.services;
 
 import java.util.List;
 
-import org.hdiaz.api.entity.Album;
+import org.hdiaz.api.entities.Album;
 
 public interface IAlbumService {
 

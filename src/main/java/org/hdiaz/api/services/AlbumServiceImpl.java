@@ -2,8 +2,8 @@ package org.hdiaz.api.services;
 
 import java.util.List;
 import java.util.Optional;
-import org.hdiaz.api.entity.Album;
-import org.hdiaz.api.repository.AlbumRepository;
+import org.hdiaz.api.entities.Album;
+import org.hdiaz.api.repositories.AlbumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

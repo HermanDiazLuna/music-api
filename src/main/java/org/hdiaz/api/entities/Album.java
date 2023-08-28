@@ -1,4 +1,4 @@
-package org.hdiaz.api.entity;
+package org.hdiaz.api.entities;
 
 import java.util.Date;
 
@@ -15,42 +15,48 @@ public class Album {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	
-	private String titulo;
-	private Date lanzado;
-	private Double precio;
 	private String genero;
-	
+	private String autor;
+	private String cantante;
+	private Double precio;
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public Date getLanzado() {
-		return lanzado;
-	}
-	public void setLanzado(Date lanzado) {
-		this.lanzado = lanzado;
-	}
-	public Double getPrecio() {
-		return precio;
-	}
-	public void setPrecio(Double precio) {
-		this.precio = precio;
-	}
+
 	public String getGenero() {
 		return genero;
 	}
+
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
-	
-		
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
+	public String getCantante() {
+		return cantante;
+	}
+
+	public void setCantante(String cantante) {
+		this.cantante = cantante;
+	}
+
+	public Double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(Double precio) {
+		this.precio = precio;
+	}
 }
